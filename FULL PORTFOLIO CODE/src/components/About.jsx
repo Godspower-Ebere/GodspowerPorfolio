@@ -4,7 +4,7 @@ import "../sass/ctaopp.css";
 import boy1 from "../assets/boy1.png";
 const About = () => {
   return (
-    <div className="bg-slate-100">
+    <div className="bg-slate-100" id="about">
       <div className="home md:px-11 px-2 md:h-[100vh] w-full flex justify-center ">
         <div className="md:w-[80%] w-[95%] flex md:justify-between items-center flex-col md:flex-row md:mt-0 mt-20">
           <div className="md:mb-24 mb-10">

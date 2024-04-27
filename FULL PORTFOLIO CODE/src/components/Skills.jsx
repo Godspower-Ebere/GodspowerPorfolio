@@ -1,7 +1,7 @@
 import React from "react";
 const Skills = () => {
   return (
-    <div className="bg-orange-50">
+    <div className="bg-orange-50" id="skills">
       <div className="home md:px-11 px-2  w-full flex justify-center ">
         <div className="md:w-[80%] w-[95%] flex md:justify-between items-center">
           <div className="text-center md:text-left w-full">

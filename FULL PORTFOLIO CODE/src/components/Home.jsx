@@ -6,12 +6,12 @@ import boy1 from "../assets/boy1.png";
 import "../sass/cta.css";
 const Home = () => {
   return (
-    <div className="bg-orange-100">
+    <div className="bg-orange-100" id="home">
       <div className="bg-white">
         <Navbar></Navbar>
       </div>
-      <div className="home md:px-11 px-2 md:h-[100vh] w-full flex justify-center ">
-        <div className="md:w-[80%] w-[95%] flex md:justify-between items-center flex-col md:flex-row md:mt-0 mt-20">
+      <div className="home md:px-11 px-2 md:h-[100vh] w-full flex justify-center">
+        <div className="md:w-[80%] w-[95%] flex md:justify-between items-center flex-col md:flex-row md:mt-0 mt-36">
           <div className="text-center md:text-left">
             <h1 className="flex items-center md:justify-start justify-center font-bold text-xl">
               Hi,

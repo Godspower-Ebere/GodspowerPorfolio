@@ -3,6 +3,9 @@ import "../sass/cta.css";
 import { AiOutlineMenu } from "react-icons/ai";
 export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const hide = () => {
+    setToggle(false);
+  };
   const change = () => {
     {
       toggle ? setToggle(false) : setToggle(true);
@@ -10,7 +13,7 @@ export const Navbar = () => {
     console.log(toggle);
   };
   return (
-    <div className="py-4 bg-white w-full ">
+    <div className="py-4 bg-white w-full fixed">
       <div className="desktop flex w-full justify-center">
         <div className="flex md:w-[80%] w-[95%] justify-between">
           <div className="text-gray-800 logo font-bold cursor-pointer text-2xl">
@@ -20,21 +23,24 @@ export const Navbar = () => {
           <div className="links md:block hidden">
             <ul className="flex">
               <li className="text-gray-600 mx-4 cursor-pointer font-bold hover:text-orange-500 transition-all">
-                HOME
+                <a href="#home">HOME</a>
               </li>
               <li className="text-gray-600 mx-4 cursor-pointer font-bold hover:text-orange-500 transition-all">
-                ABOUT
+                <a href="#about">ABOUT</a>
               </li>
               <li className="text-gray-600 mx-4 cursor-pointer font-bold hover:text-orange-500 transition-all">
-                PORTFOLIO
+                <a href="#skills">SKILLS</a>
               </li>
               <li className="text-gray-600 mx-4 cursor-pointer font-bold hover:text-orange-500 transition-all">
-                CONTACT
+                <a href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li className="text-gray-600 mx-4 cursor-pointer font-bold hover:text-orange-500 transition-all">
+                <a href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
           <div className="cta text-white text-xl py-2 px-3 contact cursor-pointer font-bold md:block hidden">
-            CONTACT NOW
+            <a href="#contact">CONTACT NOW</a>
           </div>
           <div
             className="contact cursor-pointer font-bold md:hidden"
@@ -48,22 +54,28 @@ export const Navbar = () => {
         <div className="links md:hidden">
           <ul className="block">
             <li className="mx-4 cursor-pointer border-b-2 border-orange-100 py-3 font-bold text-gray-700">
-              <a href="">HOME</a>
+              <a href="#home" onClick={hide}>
+                HOME
+              </a>
             </li>
             <li className="mx-4 cursor-pointer border-b-2 border-orange-100 py-3 font-bold text-gray-700">
-              <a href="">ABOUT</a>
+              <a href="#about" onClick={hide}>
+                ABOUT
+              </a>
             </li>
             <li className="mx-4 cursor-pointer border-b-2 border-orange-100 py-3 font-bold text-gray-700">
-              <a href="">PORTFOLIO</a>
+              <a href="#skills" onClick={hide}>
+                SKILLS
+              </a>
             </li>
             <li className="mx-4 cursor-pointer border-b-2 border-orange-100 py-3 font-bold text-gray-700">
-              <a href="">CONTACT</a>
+              <a href="#portfolio" onClick={hide}>
+                PORTFOLIO
+              </a>
             </li>
             <li className="mx-4 cursor-pointer border-b-2 border-orange-100 py-3 font-bold text-gray-700">
-              <a href="">
-                <div className="contact cursor-pointer font-bold md:hidden">
-                  CONTACT NOW
-                </div>
+              <a href="#contact" onClick={hide}>
+                CONTACT
               </a>
             </li>
           </ul>
