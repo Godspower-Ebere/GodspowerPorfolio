@@ -1,0 +1,10 @@
+.ctaopp{
+	background-color: black ;
+	box-shadow: 5px 5px 0 rgb(255, 102, 0);
+	cursor: pointer;
+	transition: 1s;
+	&:hover{
+		box-shadow: 5px 5px 0 black;
+		background-color: rgb(255, 102, 0);
+	}
+}

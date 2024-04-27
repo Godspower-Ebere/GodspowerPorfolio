@@ -1,0 +1,15 @@
+.cta {
+  background-color: #ff6600;
+  -webkit-box-shadow: 5px 5px 0 black;
+          box-shadow: 5px 5px 0 black;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.cta:hover {
+  -webkit-box-shadow: 5px 5px 0 #ff6600;
+          box-shadow: 5px 5px 0 #ff6600;
+  background-color: black;
+}
+/*# sourceMappingURL=cta.css.map */
