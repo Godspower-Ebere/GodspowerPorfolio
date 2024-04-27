@@ -9,7 +9,7 @@ export const Navbar = () => {
     console.log(toggle);
   };
   return (
-    <div className="py-4">
+    <div className="py-4 bg-white">
       <div className="desktop flex w-full justify-center">
         <div className="flex w-[90%] justify-between">
           <div className="logo font-bold cursor-pointer text-2xl">
