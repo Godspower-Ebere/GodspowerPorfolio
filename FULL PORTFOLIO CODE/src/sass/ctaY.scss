@@ -1,0 +1,11 @@
+.ctaY {
+  background-color: rgb(255, 217, 0);
+  box-shadow: 5px 5px 0 rgb(221, 157, 19);
+  cursor: pointer;
+  transition: 1.5s;
+  &:hover {
+    box-shadow: 5px 5px 0 rgb(255, 217, 0);
+    background-color: rgb(255, 102, 0);
+    color: white;
+  }
+}
