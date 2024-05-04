@@ -15,10 +15,18 @@ const Contact = () => {
                 method="post"
                 className="bg-white md:w-[45%] w-full px-4 h-full"
               >
-                <h1 className=" md:text-left my-5 text-3xl font-bold">
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  className=" md:text-left my-5 text-3xl font-bold"
+                >
                   Get in touch
                 </h1>
-                <p className="text-gray-600 m4-10">
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  className="text-gray-600 m4-10"
+                >
                   I will love to hear from you.
                 </p>
                 <div className="name flex md:justify-between flex-col md:flex-row w-full">
@@ -28,6 +36,8 @@ const Contact = () => {
                     </label>
                     <br />
                     <input
+                      data-aos="zoom-in"
+                      data-aos-duration="1000"
                       type="text"
                       placeholder="Name *"
                       className="w-full p-2 mb-4 border border-black outline-none"
@@ -39,6 +49,8 @@ const Contact = () => {
                     </label>
                     <br />
                     <input
+                      data-aos="zoom-in"
+                      data-aos-duration="1000"
                       type="email"
                       placeholder="Email *"
                       className="w-full p-2 mb-4 border border-black outline-none"
@@ -51,6 +63,8 @@ const Contact = () => {
                   </label>
                   <br />
                   <input
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
                     type="number"
                     placeholder="Phone Number *"
                     className="w-full p-2 mb-4 border border-black outline-none"
@@ -62,6 +76,8 @@ const Contact = () => {
                   </label>
                   <br />
                   <textarea
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
                     name=""
                     id=""
                     rows="5"
@@ -76,12 +92,25 @@ const Contact = () => {
               </form>
 
               <div className="contactinfo md:w-[45%] w-full my-3">
-                <img src={contactbg} alt="GodspowerPortfolio" />
+                <img
+                  data-aos="flip-right"
+                  data-aos-duration="1000"
+                  src={contactbg}
+                  alt="GodspowerPortfolio"
+                />
 
                 <div className="info my-4">
                   <div className=" flex my-2">
-                    <div className="icon w-[50px] h-[50px] flex justify-center items-center bg-yellow-400 me-4">
-                      <AiFillPhone size={30}></AiFillPhone>
+                    <div
+                      className="icon w-[50px] h-[50px] flex justify-center items-center bg-yellow-400 me-4"
+                      data-aos="zoom-in"
+                      data-aos-duration="1000"
+                    >
+                      <AiFillPhone
+                        data-aos="flip-right"
+                        data-aos-duration="1000"
+                        size={30}
+                      ></AiFillPhone>
                     </div>
                     <div className="text text-lg">
                       <p className="text-gray-400 m4-10">PHONE</p>
@@ -91,8 +120,16 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className=" flex my-2">
-                    <div className="icon w-[50px] h-[50px] flex justify-center items-center bg-yellow-400 me-4">
-                      <AiFillMail size={30}></AiFillMail>
+                    <div
+                      className="icon w-[50px] h-[50px] flex justify-center items-center bg-yellow-400 me-4"
+                      data-aos="zoom-in"
+                      data-aos-duration="1000"
+                    >
+                      <AiFillMail
+                        data-aos="flip-right"
+                        data-aos-duration="1000"
+                        size={30}
+                      ></AiFillMail>
                     </div>
                     <div className="text text-lg">
                       <p className="text-gray-400 m4-10">MAIL</p>
@@ -102,8 +139,16 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className=" flex my-2">
-                    <div className="icon w-[50px] h-[50px] flex justify-center items-center bg-yellow-400 me-4">
-                      <FaMapMarkerAlt size={30}></FaMapMarkerAlt>
+                    <div
+                      className="icon w-[50px] h-[50px] flex justify-center items-center bg-yellow-400 me-4"
+                      data-aos="zoom-in"
+                      data-aos-duration="1000"
+                    >
+                      <FaMapMarkerAlt
+                        data-aos="flip-right"
+                        data-aos-duration="1000"
+                        size={30}
+                      ></FaMapMarkerAlt>
                     </div>
                     <div className="text text-lg">
                       <p className="text-gray-400 m4-10">VISIT ME @</p>
