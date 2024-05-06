@@ -1,0 +1,1 @@
+import{_ as o}from"./index-iGDHt5zD.js";async function _(e,t=!0){const{BubbleDrawer:a}=await o(()=>import("./BubbleDrawer-CU9R-l2v.js"),[]);await e.addEffect("bubble",new a,t)}export{_ as loadBubbleEffect};
