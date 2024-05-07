@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import "../sass/cta.scss";
 
 const Footer = () => {
   const date = new Date();
@@ -14,7 +13,7 @@ const Footer = () => {
               href="https://github.com/Godspower-Ebere/"
               target="_blank"
             >
-              <FaGithub color="orange" size={30}></FaGithub>
+              <FaGithub color="white" size={30}></FaGithub>
             </a>
           </div>
           <div className="copy text-white">

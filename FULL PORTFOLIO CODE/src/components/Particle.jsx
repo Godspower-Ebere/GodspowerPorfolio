@@ -29,11 +29,6 @@ const Particle = () => {
 
   const options = useMemo(
     () => ({
-      // background: {
-      //   color: {
-      //     value: "#0d47a1",
-      //   },
-      // },
       fpsLimit: 120,
       interactivity: {
         events: {
@@ -61,11 +56,11 @@ const Particle = () => {
           value: "#ff6600",
         },
         links: {
-          color: "#ff6600",
+          color: "#000",
           distance: 150,
           enable: true,
           opacity: 0.5,
-          width: 1,
+          width: 2,
         },
         move: {
           direction: "none",

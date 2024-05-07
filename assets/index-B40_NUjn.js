@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/ExportVideoPlugin-Ct2iwY-i.js","assets/index-sGgwhAlq.js","assets/index-CBeR5PCN.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as a}from"./index-sGgwhAlq.js";async function _(o,t=!0){const{ExportVideoPlugin:i}=await a(()=>import("./ExportVideoPlugin-Ct2iwY-i.js"),__vite__mapDeps([0,1,2]));await o.addPlugin(new i(o),t)}export{_ as loadExportVideoPlugin};

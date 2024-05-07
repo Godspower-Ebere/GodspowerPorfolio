@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/RoundedPolygonDrawer-vmUMP4sW.js","assets/index-iGDHt5zD.js","assets/index-O0RYbmfO.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as d}from"./index-iGDHt5zD.js";async function r(o,a=!0){const{RoundedPolygonDrawer:e}=await d(()=>import("./RoundedPolygonDrawer-vmUMP4sW.js"),__vite__mapDeps([0,1,2]));await o.addShape("rounded-polygon",new e,a)}export{r as loadRoundedPolygonShape};

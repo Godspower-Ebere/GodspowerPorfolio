@@ -20,7 +20,7 @@ const LeftProject = ({
               data-aos="flip-left"
               data-aos-duration="1000"
               src={projectImg}
-              className="cta w-full md:h-[400px] h-80 border-none outline-none"
+              className="cta w-full  border-none outline-none"
             />
           </div>
           <div className="content md:w-[49%] flex justify-center flex-col">

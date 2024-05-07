@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Navbar } from "./Navbar";
 import hi from "../assets/hi.gif";
 import { ReactTyped } from "react-typed";
 import boy1 from "../assets/boy1.png";
@@ -12,9 +11,6 @@ const Home = () => {
   }, []);
   return (
     <div className="bg-orange-50" id="home">
-      <div className="bg-white">
-        <Navbar></Navbar>
-      </div>
       <div className="home md:px-11 px-2 md:h-[100vh] w-full flex justify-center">
         <div className="md:w-[80%] w-[95%] flex md:justify-between items-center flex-col md:flex-row md:mt-0 mt-36">
           <div className="text-center md:text-left">

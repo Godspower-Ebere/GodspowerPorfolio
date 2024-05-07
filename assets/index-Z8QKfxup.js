@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/SVGPathGenerator-C4zDKlaq.js","assets/index-sGgwhAlq.js","assets/index-CBeR5PCN.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as o}from"./index-sGgwhAlq.js";const r="svgPathGenerator";async function _(t,a=!0){const{SVGPathGenerator:e}=await o(()=>import("./SVGPathGenerator-C4zDKlaq.js"),__vite__mapDeps([0,1,2]));await t.addPathGenerator(r,new e,a)}export{_ as loadSVGPath,r as svgPathName};

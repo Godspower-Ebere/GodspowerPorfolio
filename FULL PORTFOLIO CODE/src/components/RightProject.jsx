@@ -1,5 +1,4 @@
 import React from "react";
-import "../sass/cta.scss";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const RightProject = ({
   webLink,
@@ -18,7 +17,7 @@ const RightProject = ({
               data-aos-duration="1000"
               data-aos="flip-right"
               src={projectImg}
-              className="cta w-full md:h-[400px] h-80 border-none outline-none"
+              className="cta w-full border-none outline-none"
             />
           </div>
           <div className="content md:w-[49%] flex justify-center flex-col">

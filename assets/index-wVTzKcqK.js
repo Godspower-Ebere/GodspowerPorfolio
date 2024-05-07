@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/EmittersCanvasShapeGenerator-DDn6oC7Y.js","assets/index-sGgwhAlq.js","assets/index-CBeR5PCN.css","assets/EmitterShapeBase-4KcS34Iy.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as i}from"./index-sGgwhAlq.js";async function s(e,r=!0){var t;const a=e,{EmittersCanvasShapeGenerator:o}=await i(()=>import("./EmittersCanvasShapeGenerator-DDn6oC7Y.js"),__vite__mapDeps([0,1,2,3]));(t=a.addEmitterShapeGenerator)==null||t.call(a,"canvas",new o),await a.refresh(r)}export{s as loadEmittersShapeCanvas};
