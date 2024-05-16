@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/EmittersPathShapeGenerator-BUY0l4RF.js","assets/index-sGgwhAlq.js","assets/index-CBeR5PCN.css","assets/EmitterShapeBase-4KcS34Iy.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as i}from"./index-sGgwhAlq.js";async function h(e,r=!0){var a;const t=e,{EmittersPathShapeGenerator:o}=await i(()=>import("./EmittersPathShapeGenerator-BUY0l4RF.js"),__vite__mapDeps([0,1,2,3]));(a=t.addEmitterShapeGenerator)==null||a.call(t,"path",new o),await t.refresh(r)}export{h as loadEmittersShapePath};

@@ -26,7 +26,7 @@ const About = () => {
               className="flex items-center md:justify-start font-bold text-2xl"
               data-aos="zoom-in"
             >
-              With over 2 years of hands-on experience,
+              Over the past 3+ years in the industry,
             </h1>
             <h1 className="text-lg" data-aos="zoom-in">
               I specialize in crafting robust web applications, backed by a
