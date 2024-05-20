@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/PerlinNoiseGenerator-_9ZAeURc.js","assets/index-BJz4FO4R.js","assets/index-CBeR5PCN.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as a}from"./index-BJz4FO4R.js";const i="perlinNoise";async function n(e,o=!0){const{PerlinNoiseGenerator:t}=await a(()=>import("./PerlinNoiseGenerator-_9ZAeURc.js"),__vite__mapDeps([0,1,2]));await e.addPathGenerator(i,new t,o)}export{n as loadPerlinNoisePath,i as perlinNoisePathName};

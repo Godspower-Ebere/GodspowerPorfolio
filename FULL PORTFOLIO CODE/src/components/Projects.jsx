@@ -8,6 +8,8 @@ import p3 from "../assets/p3.jpg";
 import p4 from "../assets/p4.jpg";
 import p5 from "../assets/p5.jpg";
 import p6 from "../assets/p6.jpg";
+import p7 from "../assets/p7.jpg";
+import p8 from "../assets/p8.jpg";
 const Projects = () => {
   return (
     <div id="portfolio" className=" bg-orange-50">
@@ -112,14 +114,16 @@ const Projects = () => {
               },
             ]}
           />
+          
           <RightProject
-            projectImg={p6}
-            webLink="https://news-homepage-pi-eight.vercel.app/"
-            wedDescription="This was a frontend project built using HTML, CSS Javascript
-            & Bootstrap. i used css flexbox to make the landing page fully
-            responsive. and functional"
-            webTitle="News-Homepage"
-            gitLink="https://github.com/Godspower-Ebere/news-homepage"
+            projectImg={p8}
+            webLink=""
+            wedDescription="This is a FullStack chatting web app built with PHP for server-side and communication with the Database, 
+            Javascript for the functionality of the web app, Bootstrap & SASS for the styling of the web page, Jquery Ajax for 
+            real time chat update & sending POST & GET Request to the server, MYSQL was the database i used for storing 
+            User informations and their Chats. The Features the website offers are Login, Logout, Chatting, Signup, Displaying Users Online and Offline e.t.c."
+            webTitle="PHP Chatting Web app"
+            gitLink=""
             skills={[
               {
                 imgSrc:
@@ -141,6 +145,18 @@ const Projects = () => {
               },
               {
                 imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+                imgAlt: "sass",
+                toolsLink: "https://sass-lang.com",
+              },
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+                imgAlt: "php",
+                toolsLink: "https://www.php.net",
+              },
+              {
+                imgSrc:
                   "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
                 imgAlt: "javascript",
                 toolsLink:
@@ -148,6 +164,7 @@ const Projects = () => {
               },
             ]}
           />
+          
 
           <LeftProject
             projectImg={p3}
@@ -191,6 +208,71 @@ const Projects = () => {
             responsive."
             webTitle="Easy Bank landing page"
             gitLink="https://github.com/Godspower-Ebere/easy-bank-landing-page"
+            skills={[
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+                imgAlt: "html5",
+                toolsLink: "https://www.w3.org/html/",
+              },
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+                imgAlt: "css3",
+                toolsLink: "https://www.w3schools.com/css/",
+              },
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+                imgAlt: "bootstrap",
+                toolsLink: "https://getbootstrap.com",
+              },
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+                imgAlt: "javascript",
+                toolsLink:
+                  "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+              },
+            ]}
+          />
+          <LeftProject
+            projectImg={p7}
+            webLink=""
+            wedDescription="This is a FAQ (Frequently Asked Question) Accordion it was built with HTML, CSS Javasript. The Javascript was use to manipilate the DOM on any element the user clicks, by hiding and displaying them."
+            webTitle="FAQ Accordion"
+            gitLink=""
+            skills={[
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+                imgAlt: "html5",
+                toolsLink: "https://www.w3.org/html/",
+              },
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+                imgAlt: "css3",
+                toolsLink: "https://www.w3schools.com/css/",
+              },
+              {
+                imgSrc:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+                imgAlt: "javascript",
+                toolsLink:
+                  "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+              },
+            ]}
+          />
+         
+         <RightProject
+            projectImg={p6}
+            webLink="https://news-homepage-pi-eight.vercel.app/"
+            wedDescription="This was a frontend project built using HTML, CSS Javascript
+            & Bootstrap. i used css flexbox to make the landing page fully
+            responsive. and functional"
+            webTitle="News-Homepage"
+            gitLink="https://github.com/Godspower-Ebere/news-homepage"
             skills={[
               {
                 imgSrc:

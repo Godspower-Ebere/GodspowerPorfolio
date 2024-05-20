@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import "../sass/cta.css";
 import "../sass/ctaopp.css";
 import boy1 from "../assets/boy1.png";
+import resume from "../assets/GODSPOWER EBERECHUKWU RESUME.pdf";
 const About = () => {
   useEffect(() => {
     Aos.init();
@@ -36,9 +37,8 @@ const About = () => {
             <h1 className="text-lg" data-aos="zoom-in">
               💼 My expertise spans front-end technologies like HTML, CSS,
               Tailwind, and React.js, as well as back-end technologies including
-              Node.js, PHP, and Django. 🌐 Proficient in managing both SQL
-              databases (MySQL) and NoSQL databases (MongoDB), I excel in
-              database management.
+              Node.js and PHP. 🌐 Proficient in managing SQL databases (MySQL), 
+              I excel in database management.
             </h1>
             <h1 className="text-lg" data-aos="zoom-in">
               🔍 Committed to staying at the forefront of industry trends and
@@ -48,10 +48,10 @@ const About = () => {
             </h1>
 
             <div className="btn" data-aos="zoom-in">
-              <a href="#contact" data-aos="zoom-in">
+              <a href={resume} download data-aos="zoom-in">
                 {" "}
                 <button className="cta text-white text-xl py-2 px-3  me-4">
-                  CONTACT ME
+                  DOWNLOAD CV
                 </button>
               </a>
               <a href="#portfolio" data-aos="zoom-out">

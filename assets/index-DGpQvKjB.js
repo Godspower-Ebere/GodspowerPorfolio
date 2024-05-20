@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/Repulser-Dl-Zvylx.js","assets/ValueWithRandom-J1sJtSDR.js","assets/AnimationOptions-D2mH-W8Z.js","assets/index-BJz4FO4R.js","assets/index-CBeR5PCN.css","assets/ParticlesInteractorBase-vfDeBun3.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as o}from"./index-BJz4FO4R.js";async function n(e,t=!0){await e.addInteractor("particlesRepulse",async r=>{const{Repulser:a}=await o(()=>import("./Repulser-Dl-Zvylx.js"),__vite__mapDeps([0,1,2,3,4,5]));return new a(r)},t)}export{n as loadParticlesRepulseInteraction};

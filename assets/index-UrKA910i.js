@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/OrbitUpdater-Bf55NE-i.js","assets/ValueWithRandom-J1sJtSDR.js","assets/AnimationOptions-D2mH-W8Z.js","assets/index-BJz4FO4R.js","assets/index-CBeR5PCN.css","assets/OptionsColor-C0WFiEN2.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as i}from"./index-BJz4FO4R.js";async function d(t,r=!0){await t.addParticleUpdater("orbit",async a=>{const{OrbitUpdater:e}=await i(()=>import("./OrbitUpdater-Bf55NE-i.js"),__vite__mapDeps([0,1,2,3,4,5]));return new e(a)},r)}export{d as loadOrbitUpdater};

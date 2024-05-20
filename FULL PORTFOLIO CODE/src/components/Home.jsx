@@ -15,14 +15,14 @@ const Home = () => {
         <div className="md:w-[80%] w-[95%] flex md:justify-between items-center flex-col md:flex-row md:mt-0 mt-36">
           <div className="text-center md:text-left">
             <h1
-              className="flex items-center md:justify-start justify-center font-bold text-xl"
+              className="flex items-center md:justify-start justify-center font-bold text-2xl"
               data-aos="zoom-in"
             >
               Hi,
               <img src={hi} className="w-8 md:w-auto" alt="" />
               <ReactTyped
                 cursorChar=" "
-                strings={["My NAME IS GODSPOWER"]}
+                strings={["My Name Is Godspower"]}
                 typeSpeed={100}
               ></ReactTyped>
             </h1>

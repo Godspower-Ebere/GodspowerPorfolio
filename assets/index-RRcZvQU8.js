@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/RoundedRectDrawer-0D2Bl8HW.js","assets/index-BJz4FO4R.js","assets/index-CBeR5PCN.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as o}from"./index-BJz4FO4R.js";async function r(e,t=!0){const{RoundedRectDrawer:a}=await o(()=>import("./RoundedRectDrawer-0D2Bl8HW.js"),__vite__mapDeps([0,1,2]));await e.addShape("rounded-rect",new a,t)}export{r as loadRoundedRectShape};

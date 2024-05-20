@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/GradientUpdater-B10hRw8K.js","assets/index-BJz4FO4R.js","assets/index-CBeR5PCN.css","assets/AnimatableColor-CbFDBIO5.js","assets/AnimationOptions-D2mH-W8Z.js","assets/OptionsColor-C0WFiEN2.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as e}from"./index-BJz4FO4R.js";async function i(t,a=!0){await t.addParticleUpdater("gradient",async()=>{const{GradientUpdater:r}=await e(()=>import("./GradientUpdater-B10hRw8K.js"),__vite__mapDeps([0,1,2,3,4,5]));return new r},a)}export{i as loadGradientUpdater};

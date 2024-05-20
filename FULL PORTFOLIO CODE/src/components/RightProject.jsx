@@ -60,27 +60,27 @@ const RightProject = ({
               data-aos="zoom-in"
               data-aos-duration="1000"
             >
-              <a
-                href={gitLink}
-                target="_blank"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <FaGithub className="cta text-white p-1 me-4" size={40}>
-                  {" "}
-                </FaGithub>
-              </a>
-              <a
-                href={webLink}
-                target="_blank"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
+              {
+               gitLink=="" ?"":<a
+               href={gitLink}
+               target="_blank"
+               data-aos="zoom-in"
+               data-aos-duration="1000"
+             >
+               <FaGithub className="cta text-white p-1 me-4" size={40}>
+                 {" "}
+               </FaGithub>
+             </a>
+              }
+              
+              {
+                webLink==""?"": <a href={webLink} target="_blank" data-aos="zoom-in">
                 <FaExternalLinkAlt
                   className="cta text-white p-1"
                   size={40}
                 ></FaExternalLinkAlt>
               </a>
+              }
             </div>
           </div>
         </div>
